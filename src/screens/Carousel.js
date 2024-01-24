@@ -23,7 +23,7 @@ const Carousel = () => {
             <span className="font-bold white" style={{ color: "" }}>
               discount
             </span>{" "}
-            on entire stock. Avail the offer now!
+            on entire stock.
           </p>
           <div className="flex justify-end ">
             <Link to="/products" className=" avail-btn rounded-md">

@@ -39,13 +39,14 @@ body {
   min-width: 12rem;
   border-radius: 1rem;
 }
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 376px) {
   .header-content {
-    /* margin-top: -10rem; */
+    margin-top: -1rem;
+    margin-right: 0.5rem;
     
   }
   .header-content h2 {
-    font-size: medium;
+    font-size: large;
   
   }
   .header-content p {
@@ -55,47 +56,90 @@ body {
   .avail-btn button {
     font-size: x-small;
     /* margin-top: -1rem; */
-    /* padding-right: 4px; */
+    padding: 4px;
   }
 }
 
 
 
-/* .header-img {
+ .header-img {
   object-fit: cover;
   width: 100%;
 }
 
-.header-content {
+/* .header-content {
   margin-top: -35rem;
   margin-right: 2rem;
-}
+} */
 
-@media screen and (max-width: 1024px) {
-  .header-content {
-    position: relative;
-    margin-top: -12rem;
+@media screen and (max-width : 800px) {
+  .header-content{
+    margin-top: -3rem;
+    margin-right: 1rem;
   }
-  .header-content h2 {
-    font-size: x-large;
-    margin-left: 17rem;
+  .header-content h2{
+    
   }
   .header-content p {
-    font-size: small;
-    margin-left: 17rem;
-  }
-  .avail-btn button {
-    margin-left: 16.3rem;
-    margin-top: 0rem;
+    
+    /* padding-bottom: 0.5rem; */
   }
 }
 
+
+
+
+
+
+ 
+@media screen and (max-width: 1024px) {
+  .header-content {
+    margin-top: -30rem;
+    margin-right: 2rem;
+  }
+  .header-content h2 {
+    font-size: 40px;
+   
+  }
+  .header-content p {
+    font-size: larger;
+    
+  }
+  .avail-btn button {
+   padding: 4px;
+    margin-top: 2rem;
+  }
+}
+
+@media (max-width:1300) {
+  .header-content{
+    margin-top: -20px;
+    padding-top: 10px;
+  }
+  .header-content h2{
+    font-size: 20px;
+  }.header-content p{
+    font-size: medium;
+  }
+}
 @media screen and (max-width: 1980px) {
+
+  .header-content{
+    margin-top: -30rem;
+    margin-right: 2rem;
+  }
+  .header-content h2{
+    
+    font-size: 5rem;
+  }
+  .header-content p {
+    font-size: 2rem;
+  }
   .avail-btn button{
-    margin-top: 0.001rem;
+    margin-top: 1rem;
     padding: 10px;
   }
-} */
+}
 
 
 
