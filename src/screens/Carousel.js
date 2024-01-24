@@ -1,5 +1,4 @@
 import React from "react";
-import cvr from "../assets/cvr-1.jpg";
 import { Link } from "react-router-dom";
 
 const Carousel = () => {
@@ -7,7 +6,6 @@ const Carousel = () => {
     <>
  <div className="relative bg-gradient-to-r from-gray-800 to-blue-800 h-screen text-white overflow-hidden">
   <div className="absolute inset-0">
-    {/* <img src={cvr} alt="Background Image" className="object-cover object-center w-full h-full" /> */}
     <div className="absolute inset-0 bg-black opacity-50" />
   </div>
   <div className="relative z-10 flex flex-col justify-center items-center h-full text-center">

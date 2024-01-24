@@ -12,7 +12,7 @@ const Invoice = ({ counter }) => {
       .then((data) => {
         setProducts(data);
       });
-  }, []);
+  });
 
   return (
     <>

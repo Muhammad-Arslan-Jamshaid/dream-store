@@ -14,7 +14,7 @@ const Cart = ({ counter, incrementCounter, decrementCounter }) => {
       .then((data) => {
         setProducts(data);
       });
-  }, []);
+  });
 
   return (
     <>
@@ -32,7 +32,7 @@ const Cart = ({ counter, incrementCounter, decrementCounter }) => {
             <div className="flex-shrink-0">
               <img
                 src={products.images}
-                alt="Product image"
+                alt="Product_image"
                 className="w-32 h-32 object-cover"
               />
             </div>
