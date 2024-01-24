@@ -1,6 +1,5 @@
 {
-  "homepage": "https://Muhammad-Arslan-Jamshaid.github.io/dream-store",
-  "name": "dreamstore",
+  "name": "dream-store",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
