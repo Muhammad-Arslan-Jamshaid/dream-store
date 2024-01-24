@@ -34,6 +34,23 @@ body {
   min-width: 12rem;
   border-radius: 1rem;
 }
+@media screen and (max-width: 360px) {
+  .header-content {
+    margin-top: -9rem;
+  }
+  .header-content h2 {
+    font-size: medium;
+  }
+  .header-content p {
+    font-size: xx-small;
+    margin-top: -0.5rem;
+  }
+  .avail-btn button {
+    font-size: x-small;
+    margin-top: -1rem;
+    padding-right: 4px;
+  }
+}
 @media screen and (max-width: 768px) {
   .desktopMenu {
     display: none;
@@ -67,33 +84,25 @@ body {
     margin-top: 0rem;
   }
 }
-@media screen and (max-width: 360px) {
-  .header-content {
-    margin-top: -9rem;
-  }
-  .header-content h2 {
-    font-size: medium;
-  }
-  .header-content p {
-    font-size: xx-small;
-    margin-top: -0.5rem;
-  }
-  .avail-btn button {
-    font-size: x-small;
-    margin-top: -1rem;
-    padding-right: 4px;
-  }
-}
+
 @media screen and (max-width: 1980px) {
-  .avail-btn {
+  .avail-btn button{
     margin-top: 0.001rem;
     padding: 10px;
   }
 }
+
+
+
+
 .deletedPrice{
   text-decoration: line-through;
   text-decoration-color: #D1D5DB;
 }
+
+
+
+
 @media screen and (max-width:1024px){
   .contactForm{
   padding-top: 0;
