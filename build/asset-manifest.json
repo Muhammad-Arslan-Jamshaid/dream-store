@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/dream-store/static/css/main.603773f3.css",
+    "main.js": "/dream-store/static/js/main.619122c5.js",
+    "index.html": "/dream-store/index.html",
+    "main.603773f3.css.map": "/dream-store/static/css/main.603773f3.css.map",
+    "main.619122c5.js.map": "/dream-store/static/js/main.619122c5.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.603773f3.css",
+    "static/js/main.619122c5.js"
+  ]
+}
