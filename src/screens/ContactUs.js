@@ -35,9 +35,10 @@ const ContactUs = () => {
 
   return (
     <>
-      <div className="contactForm mt-20 pt-10 bg-{#616161} flex h-screen items-center justify-center ">
+  <div className="bg-gradient-to-r from-gray-900 to-blue-950 -mt-2 pb-10">
+  <div className="contactForm  mt-20 pt-10  flex h-screen items-center justify-center ">
         <div className="w-full max-w-md space-y-8">
-          <div className="bg-gray-800 shadow-md rounded-lg p-5">
+          <div className="bg-gradient-to-l from-gray-900 to-blue-950 shadow-md rounded-lg p-5">
           
             <h2 className="my-3 pb-4 text-center text-3xl font-bold tracking-tight text-gray-100">
               Contact
@@ -54,7 +55,7 @@ const ContactUs = () => {
                   name="from_name"
                   type="text"
                   id="name"
-                  className="bg-gray-700 border  text-white text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-white-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-dark dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                  className="bg-gradient-to-l from-gray-900 to-blue-950 border  text-white text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-white-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-dark dark:focus:ring-blue-500 dark:focus:border-blue-500"
                   placeholder="Enter your name"
                   required
                 />
@@ -70,7 +71,7 @@ const ContactUs = () => {
                   name="from_email"
                   type="email"
                   id="email"
-                  className="bg-gray-700 border  text-white text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-white-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-dark dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                  className="bg-gradient-to-l from-gray-900 to-blue-950 border  text-white text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-white-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-dark dark:focus:ring-blue-500 dark:focus:border-blue-500"
                   placeholder="Enter your email"
                   required
                 />
@@ -86,7 +87,7 @@ const ContactUs = () => {
                   name="subject"
                   type="text"
                   id="subject"
-                  className="bg-gray-700 border  text-white text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-white-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-dark dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                  className="bg-gradient-to-l from-gray-900 to-blue-950 border  text-white text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-white-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-dark dark:focus:ring-blue-500 dark:focus:border-blue-500"
                   placeholder="Let us know how we can help you"
                   required
                 />
@@ -102,7 +103,7 @@ const ContactUs = () => {
                   name="message"
                   id="message"
                   rows={4}
-                  className="block p-2.5 w-full text-sm text-white bg-gray-700 rounded-lg border  focus:ring-blue-500 focus:border-blue-500 dark:bg-white-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-dark dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                  className="block p-2.5 w-full text-sm text-white bg-gradient-to-l from-gray-900 to-blue-950 rounded-lg border  focus:ring-blue-500 focus:border-blue-500 dark:bg-white-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-dark dark:focus:ring-blue-500 dark:focus:border-blue-500"
                   placeholder="Your message..."
                   defaultValue={""}
                 />
@@ -132,6 +133,7 @@ const ContactUs = () => {
           </div>
         </div>
       </div>
+  </div>  
     </>
   );
 };

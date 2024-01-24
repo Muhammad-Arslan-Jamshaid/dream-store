@@ -17,7 +17,8 @@ const Categories = () => {
   console.log(products);
   return (
     <>
-      <h1 className="  text-center text-gray-100 font-bold text-5xl mt-12 pt-10 underline">
+    <div className="bg-gradient-to-r from-gray-900 to-blue-950 -mb-6">
+    <h1 className="  text-center text-gray-100 font-bold text-5xl mt-12 pt-10  underline">
         Categories
       </h1>
       <div className="grid gap-10 p-20 lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-1 xs:grid-cols-1 cardss">
@@ -65,6 +66,7 @@ const Categories = () => {
           );
         })}
       </div>
+    </div>
 
       <Footer />
     </>

@@ -17,7 +17,7 @@ const Invoice = ({ counter }) => {
   return (
     <>
     
-     <div className="invoice">
+     <div className="invoice  bg-gradient-to-r from-gray-900 to-blue-950">
      <div
         id="#invoice"
         className=" mt-20 bg-white rounded-lg shadow-lg px-6 py-10 max-w-2xl mx-auto">

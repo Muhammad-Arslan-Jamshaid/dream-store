@@ -5,35 +5,22 @@ import { Link } from "react-router-dom";
 const Carousel = () => {
   return (
     <>
-      <img className="header-img mt-10 pt-6" src={cvr} />
-      <div className="header-content flex flex-col float-right relative">
-        <div className=" flex  flex-col -mt-20 ml-20 ">
-          <h2 className="text-right text-4xl font-extrabold leading-10 tracking-tight text-gray-200  sm:text-5xl sm:leading-none md:text-6xl">
-            <span className="bg-gray-800">DREAM</span>
+ <div className="relative bg-gradient-to-r from-gray-800 to-blue-800 h-screen text-white overflow-hidden">
+  <div className="absolute inset-0">
+    {/* <img src={cvr} alt="Background Image" className="object-cover object-center w-full h-full" /> */}
+    <div className="absolute inset-0 bg-black opacity-50" />
+  </div>
+  <div className="relative z-10 flex flex-col justify-center items-center h-full text-center">
+    <h1 className="text-5xl font-bold leading-tight mb-4">Welcome to <span className=" self-center text-5xl font-bold whitespace-nowrap text-white dark:text-white">
+              DREAM<span style={{ color: "rgb(172,225,175)" }}>STORE</span>
+            </span> </h1>
+    <p className="text-lg text-gray-300 mb-8">We are offering upto 50% discount on almost every product.</p>
+    <p className="text-lg text-gray-300 mb-8">Discover reliable, attractive and amaizing products.</p>
+    <Link to="/products" className="bg-red-600 text-gray-100 hover:bg-red-500 py-2 px-6 rounded-full text-lg font-semibold transition duration-300 ease-in-out transform hover:scale-105 hover:shadow-lg">Explore now</Link>
+  </div>
+</div>
 
-            <span
-              className="bg-gray-800 font-bold"
-              style={{ color: "rgb(172,225,175)" }}
-            >
-              STORE
-            </span>
-          </h2>
-          <p className="rexr-right text-base text-white sm:text-lg md:mt-5 md:text-xl md:max-w-3xl">
-            is offering flat <span className="font-bold text-white">50%</span>{" "}
-            <span className="font-bold white" style={{ color: "" }}>
-              discount
-            </span>{" "}
-            on entire stock.
-          </p>
-          <div className="flex justify-end ">
-            <Link to="/products" className=" avail-btn rounded-md">
-              <button className="px-1.5   text-white font-bold transition duration-150 ease-in-out bg-red-500 hover:bg-white rounded-md hover:text-red-500 hover:font-bold ">
-                Avail Now!
-              </button>
-            </Link>
-          </div>
-        </div>
-      </div>
+
     </>
   );
 };

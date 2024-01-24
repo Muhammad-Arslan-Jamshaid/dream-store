@@ -37,7 +37,7 @@ const Login = () => {
     <>
       <div className= "loginForm mt-8 min-h-screen max-w-screen flex flex-col items-center justify-center">
         <div className="w-full max-w-md space-y-8">
-          <div className="rounded-lg bg-gray-800 py-8 px-4 shadow sm:rounded-lg sm:px-10">
+          <div className="rounded-lg bg-gradient-to-l from-gray-900 to-blue-950 py-8 px-4 shadow sm:rounded-lg sm:px-10">
             <div className="sm:mx-auto sm:w-full sm:max-w-md">
           
               <h2 className="my-3 pb-4   text-center text-3xl font-bold tracking-tight text-gray-100">
@@ -59,7 +59,7 @@ const Login = () => {
                     type="email"
                     autoComplete="email"
                     required
-                    className="appearance-none rounded-md relative block w-full px-3 py-2 border  bg-gray-700 placeholder-gray-400 text-gray-100 focus:outline-none focus:ring-blue-500 focus:border-blue-500 focus:z-10 sm:text-sm"
+                    className="appearance-none rounded-md relative block w-full px-3 py-2 border  bg-gradient-to-l from-gray-900 to-blue-950 placeholder-gray-400 text-gray-100 focus:outline-none focus:ring-blue-500 focus:border-blue-500 focus:z-10 sm:text-sm"
                     placeholder="Enter your email address"
                     onChange={(e) => setEmail(e.target.value)}
                     value={email}
@@ -80,7 +80,7 @@ const Login = () => {
                     type="password"
                     autoComplete="current-password"
                     required
-                    className="appearance-none rounded-md relative block w-full px-3 py-2 border  bg-gray-700  placeholder-gray-400 text-gray-100 focus:outline-none focus:ring-blue-500 focus:border-blue-500 focus:z-10 sm:text-sm"
+                    className="appearance-none rounded-md relative block w-full px-3 py-2 border  bg-gradient-to-l from-gray-900 to-blue-950  placeholder-gray-400 text-gray-100 focus:outline-none focus:ring-blue-500 focus:border-blue-500 focus:z-10 sm:text-sm"
                     placeholder="Enter your password"
                     onChange={(e) => setPassword(e.target.value)}
                     value={password}

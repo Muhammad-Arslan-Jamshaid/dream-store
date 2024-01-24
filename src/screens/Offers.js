@@ -32,8 +32,8 @@ const Offers = () => {
 
   return (
     <>
-      <div className="mx-auto mt-32 max-w-7xl px-6 sm:mt-56 lg:px-8">
-        <div className="relative overflow-hidden bg-gray-800 px-6 py-24 shadow-2xl rounded-2xl sm:rounded-3xl sm:px-24 xl:py-32">
+      <div className="mx-auto mt-6 py-20 max-w-7xl px-6 sm:mt-56 lg:px-8">
+        <div className="relative overflow-hidden shadow-gray-500 bg-gradient to r #111827 , #102256 px-6 py-24 shadow-2xl rounded-2xl sm:rounded-3xl sm:px-24 xl:py-32">
           <h2 className="mx-auto max-w-2xl text-center text-3xl font-bold tracking-tight text-white sm:text-4xl">
             Subscribe to get discount offers
           </h2>

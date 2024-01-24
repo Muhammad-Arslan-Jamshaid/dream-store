@@ -16,14 +16,15 @@ const Cards = () => {
   console.log(products);
   return (
     <>
-      <h1 className=" text-center text-gray-100 font-bold text-5xl mt-14 pb-14 pt-6 underline">
+      <div className="bg-gradient-to-r #111827 , #0c1e55">
+      <h1 className=" text-center text-gray-100 font-bold text-5xl mt-0 pb-14 pt-20 underline">
         Products
       </h1>
       <section
         id="#projects"
-        className="w-fit mx-auto grid grid-cols-1 lg:grid-cols-3 md:grid-cols-2 justify-items-center justify-center gap-y-20 gap-x-14 mt-10 mb-5"
+        className=" w-fit mx-auto grid grid-cols-1 lg:grid-cols-3 md:grid-cols-2 justify-items-center justify-center gap-y-20 gap-x-14 mt-10 mb-5"
       >
-        {products.slice(0, 26).map((item) => {
+        {products.slice(1, 26).map((item) => {
           return (
             <>
               <div className="w-72 bg-gray-700 shadow-md rounded-xl duration-500 hover:scale-105 hover:shadow-xl">
@@ -78,6 +79,7 @@ const Cards = () => {
           );
         })}
       </section>
+      </div>
     </>
   );
 };

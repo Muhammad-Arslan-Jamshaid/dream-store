@@ -43,7 +43,7 @@ const Signup = () => {
     <>
       <div className="signupForm mt-20  flex h-screen items-center justify-center ">
         <div className="w-full max-w-md space-y-8">
-          <div className="bg-gray-800 shadow-md rounded-lg p-5">
+          <div className="bg-gradient-to-l from-gray-900 to-blue-950 shadow-md rounded-lg p-5">
           
             <h2 className="my-3 pb-4 text-center text-3xl font-bold tracking-tight text-gray-100">
               Sign up for a new account
@@ -69,7 +69,7 @@ const Signup = () => {
                     value={name}
                     onChange={(e) => setName(e.target.value)}
                     required
-                    className="bg-gray-700 text-white placeholder-gray-400 px-2 py-2 mt-1 block w-full rounded-md border  shadow-sm focus:border-blue-600 focus:outline-none focus:ring-blue-700 sm:text-sm"
+                    className="bg-gradient-to-l from-gray-900 to-blue-950 text-white placeholder-gray-400 px-2 py-2 mt-1 block w-full rounded-md border  shadow-sm focus:border-blue-600 focus:outline-none focus:ring-blue-700 sm:text-sm"
                   />
                 </div>
               </div>
@@ -90,7 +90,7 @@ const Signup = () => {
                     placeholder="Enter your email address"
                     autoComplete="email"
                     required
-                    className="bg-gray-700 text-white placeholder-gray-400  px-2 py-2 mt-1 block w-full rounded-md border  shadow-sm focus:border-blue-600 focus:outline-none focus:ring-blue-700 sm:text-sm"
+                    className="bg-gradient-to-l from-gray-900 to-blue-950 text-white placeholder-gray-400  px-2 py-2 mt-1 block w-full rounded-md border  shadow-sm focus:border-blue-600 focus:outline-none focus:ring-blue-700 sm:text-sm"
                   />
                 </div>
               </div>
@@ -111,7 +111,7 @@ const Signup = () => {
                     type="tel"
                     autoComplete="contact"
                     required
-                    className="bg-gray-700 text-white placeholder-gray-400  px-2 py-2 mt-1 block w-full rounded-md border  shadow-sm focus:border-blue-600 focus:outline-none focus:ring-blue-700 sm:text-sm"
+                    className="bg-gradient-to-l from-gray-900 to-blue-950 text-white placeholder-gray-400  px-2 py-2 mt-1 block w-full rounded-md border  shadow-sm focus:border-blue-600 focus:outline-none focus:ring-blue-700 sm:text-sm"
                   />
                 </div>
               </div>
@@ -132,7 +132,7 @@ const Signup = () => {
                     placeholder="Enter a password"
                     autoComplete="password"
                     required
-                    className="bg-gray-700 text-white placeholder-gray-400  px-2 py-2 mt-1 block w-full rounded-md border  shadow-sm focus:border-blue-600 focus:outline-none focus:ring-blue-700 sm:text-sm"
+                    className="bg-gradient-to-l from-gray-900 to-blue-950 text-white placeholder-gray-400  px-2 py-2 mt-1 block w-full rounded-md border  shadow-sm focus:border-blue-600 focus:outline-none focus:ring-blue-700 sm:text-sm"
                   />
                 </div>
               </div>

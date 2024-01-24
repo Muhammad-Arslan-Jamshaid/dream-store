@@ -10,9 +10,9 @@ const Checkout = () => {
 
   return (
     <>
-      <div id="#checkout" className="pt-10 mt-5 bg-gray-900">
+      <div id="#checkout" className=" pt-10 mt-5 bg-gradient-to-r from-gray-900 to-blue-950">
         <div className="w-full max-w-3xl mx-auto p-8">
-          <div className="bg-gray-800 p-8 rounded-lg shadow-md border dark:border-gray-700">
+          <div className="bg-gradient-to-l from-gray-900 to-blue-950 p-5 rounded-lg shadow-md border dark:border-gray-700">
             <h1 className="text-2xl font-bold dark:text-white mb-4">
               Checkout
             </h1>
@@ -163,7 +163,7 @@ const Checkout = () => {
                 <button
                   onClick={submitAlert}
                   type="submit"
-                  className=" mb-2 bg-green-500 text-white px-4 py-2 rounded-lg hover:bg-green-700 dark:bg-green-400 dark:text-white dark:hover:bg-green-700"
+                  className=" mb-2 bg-green-600 text-white px-4 py-2 rounded-lg hover:bg-green-700  dark:text-white "
                 >
                   Confirm payment
                 </button>

@@ -20,7 +20,7 @@ const Cart = ({ counter, incrementCounter, decrementCounter }) => {
     <>
       <div
         id="#cart"
-        className="mt-16 container mx-auto px-4 py-8 placeholder-sky-100 bg-gray-800"
+        className="mt-16 container mx-auto px-4 py-8 placeholder-sky-100 bg-gradient-to-r from-gray-900 to-blue-950"
       >
         <div className="flex flex-col md:flex-row md:justify-between md:items-center">
           <h1 className="pt-5 text-3xl font-bold my-4 text-white">
