@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/dream-store/static/css/main.bc52fe10.css",
+    "main.js": "/dream-store/static/js/main.c0676853.js",
+    "static/media/cvr-5.jpg": "/dream-store/static/media/cvr-5.c571c4e75528109281d9.jpg",
+    "index.html": "/dream-store/index.html",
+    "main.bc52fe10.css.map": "/dream-store/static/css/main.bc52fe10.css.map",
+    "main.c0676853.js.map": "/dream-store/static/js/main.c0676853.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bc52fe10.css",
+    "static/js/main.c0676853.js"
+  ]
+}
