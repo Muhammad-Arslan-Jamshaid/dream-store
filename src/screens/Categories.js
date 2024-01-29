@@ -17,7 +17,7 @@ const Categories = () => {
   console.log(products);
   return (
     <>
-    <div className="bg-gradient-to-r from-gray-900 to-blue-950 -mb-6">
+    <div className="bg-gradient-to-r {#111827} , {#0c1e55} -mb-6">
     <h1 className="  text-center text-gray-100 font-bold text-5xl mt-12 pt-10  underline">
         Categories
       </h1>
@@ -65,7 +65,7 @@ const Categories = () => {
         })}
       </div>
     </div>
-
+    <hr className="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
       <Footer />
     </>
   );

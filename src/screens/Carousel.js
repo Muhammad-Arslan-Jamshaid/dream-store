@@ -8,7 +8,7 @@ const Carousel = () => {
   <div className="absolute inset-0">
     <div className="absolute inset-0 bg-black opacity-50" />
   </div>
-  <div className="relative z-10 flex flex-col justify-center items-center h-full text-center">
+  <div className="relative z-10 flex flex-col justify-center items-center h-full text-center mt-10">
     <h1 className="text-5xl font-bold leading-tight mb-4">Welcome to <span className=" self-center text-5xl font-bold whitespace-nowrap text-white dark:text-white">
               DREAM<span style={{ color: "rgb(172,225,175)" }}>STORE</span>
             </span> </h1>

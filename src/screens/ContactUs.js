@@ -35,12 +35,12 @@ const ContactUs = () => {
 
   return (
     <>
-  <div className="bg-gradient-to-r from-gray-900 to-blue-950 -mt-2 pb-10">
-  <div className="contactForm  mt-20 pt-10  flex h-screen items-center justify-center ">
+  <div className="bg-gradient-to-r {#111827} , {#0c1e55} -mt-2 pb-10">
+  <div className="contactForm  mt-20 pt-20  flex h-screen items-center justify-center ">
         <div className="w-full max-w-md space-y-8">
           <div className="bg-gradient-to-l from-gray-900 to-blue-950 shadow-md rounded-lg p-5">
           
-            <h2 className="my-3 pb-4 text-center text-3xl font-bold tracking-tight text-gray-100">
+            <h2 className="my-3  pb-4 text-center text-3xl font-bold tracking-tight text-gray-100">
               Contact
             </h2>
             <form ref={form} onSubmit={sendEmail} className="max-w-sm mx-auto">

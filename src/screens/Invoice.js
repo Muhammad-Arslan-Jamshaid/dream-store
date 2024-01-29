@@ -22,7 +22,7 @@ const Invoice = ({ counter }) => {
         id="#invoice"
         className=" mt-20 bg-white rounded-lg shadow-lg px-6 py-10 max-w-2xl mx-auto">
            {/* <div className="text-red-600 mb-6">Don't refresh this page until saving this invoice.</div> */}
-            <div className="text-white text-center mb-4 font-semibold text-lg bg-gray-800">
+            <div className="text-white text-center mb-4 font-semibold text-lg bg-gradient-to-r #111827 , #0c1e55">
               DREAM<span style={{ color: "rgb(172,225,175)" }}>STORE</span>™
             </div>
         <div className="underline font-bold text-xl mb-2 text-gray-700 text-center">

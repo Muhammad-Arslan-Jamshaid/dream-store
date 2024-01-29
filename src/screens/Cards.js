@@ -29,7 +29,7 @@ const Cards = () => {
             <>
               <div className="w-72 bg-gray-700 shadow-md rounded-xl duration-500 hover:scale-105 hover:shadow-xl">
                 <Link
-                  target="_blank"
+                 
                   to={`/products/product-details/${item.id}`}
                 >
                   <img

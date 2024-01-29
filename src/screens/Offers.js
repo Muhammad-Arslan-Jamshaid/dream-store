@@ -61,7 +61,7 @@ const Offers = () => {
             <button
               type="submit"
               value="Send"
-              className="flex-none rounded-md bg-white px-3.5 py-2.5 text-sm font-semibold text-gray-900 shadow-sm hover:bg-gray-500 hover:text-white focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white"
+              className="flex-none rounded-md bg-blue-700 px-3.5 py-2.5 text-sm font-semibold text-gray-100 shadow-sm hover:bg-blue-800 hover:text-white focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white"
             >
               Subscribe
             </button>
